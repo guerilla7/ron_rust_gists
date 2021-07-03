@@ -1,0 +1,12 @@
+fn main() {
+    let my_name = "Lord Elrond";
+    let my_race = "High Elf";
+    let my_origin = "Middle Earth";
+
+    let together = format!(
+        "I am {} and I am an {} and I came from {}.",
+        my_name, my_race, my_origin
+    );
+
+    println!("{}", together);
+}
